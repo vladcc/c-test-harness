@@ -2,8 +2,8 @@
 Not testing is bad, mkay.
 
 Ah, yes. Don't you just love running tests? Yeah, me neither.
-But what can we do about it? If your answer is "use array of bool (*)(void) and
-a macro", you're totally right.
+But what can we do about it? If your answer is "use an array of bool (*)(void)
+and a macro" - you're totally right.
 
 Use the macro for comparing the test results, fill an array with all your test 
 functions, and press play. If a test fails you get a message with the function 
