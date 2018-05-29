@@ -19,7 +19,6 @@ static ftest tests[] = {
 
 bool test_proj_two_foo(void)
 {
-	report_name();
 	check(proj_two_foo() == -21);
 	return true;
 }
@@ -28,7 +27,6 @@ bool test_proj_two_foo(void)
 
 bool test_proj_two_bar(void)
 {
-	report_name();
 	check(proj_two_bar() == 30);
 	return true;
 }
@@ -47,8 +45,8 @@ void run_test_proj_two(void)
         putchar('\n');
 
     failed = end - passed;
-    printf("%s tests passed: %d\n", __FILE__, passed);
-    printf("%s tests failed: %d\n", __FILE__, failed);
+    printf("%s\ntests passed: %d\n", __FILE__, passed);
+    printf("%s\ntests failed: %d\n", __FILE__, failed);
     puts("------------------------------------------------");
     return;
 }

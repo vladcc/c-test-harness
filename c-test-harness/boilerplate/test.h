@@ -1,22 +1,26 @@
 #ifndef TEST_H
 #define TEST_H
 
-#define check(expr)\
-do\
-{\
-    if (!(expr))\
-    {\
-        printf("\nIn\n%s\n%s()\nline %d\n", __FILE__, __func__, __LINE__);\
-        printf("(%s) has failed\n", #expr);\
-        return false;\
-    }\
-} while(0)
+//#define VERBOSE
+
+#define base_msg "\n%s()\nline %d\n(%s)\n"
+#define fail_msg "check failed\n"
+#define pass_msg "check passed\n"
+
+#define fail_report(expr)\
+if (!(expr))\
+return printf(base_msg fail_msg, __func__, __LINE__, #expr), false;
+
+#define pass_report(expr)\
+else printf(base_msg pass_msg, __func__, __LINE__, #expr);
 
 #ifdef VERBOSE
-    #define report_name()   fprintf(stderr, "%s()\n", __func__)
+#define test(expr) fail_report(expr) pass_report(expr)
 #else
-    #define report_name()
+#define test(expr) fail_report(expr)
 #endif
+
+#define check(expr) do {test(expr)} while(0)
 
 typedef bool (*ftest)(void);
 

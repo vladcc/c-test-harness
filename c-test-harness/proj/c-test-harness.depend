@@ -34,35 +34,35 @@
 
 1527524222 /home/vld/repos/c-test-harness/test.h
 
-1527527409 source:/home/vld/repos/c-test-harness/c-test-harness/test_all.c
+1527527802 source:/home/vld/repos/c-test-harness/c-test-harness/test_all.c
 	<stdio.h>
 	"./test_proj_one/test_proj_one.h"
 	"./test_proj_two/test_proj_two.h"
 
-1527527409 /home/vld/repos/c-test-harness/c-test-harness/test_proj_one/test_proj_one.h
+1527527802 /home/vld/repos/c-test-harness/c-test-harness/test_proj_one/test_proj_one.h
 
-1527527409 /home/vld/repos/c-test-harness/c-test-harness/test_proj_two/test_proj_two.h
+1527527802 /home/vld/repos/c-test-harness/c-test-harness/test_proj_two/test_proj_two.h
 
-1527527409 source:/home/vld/repos/c-test-harness/c-test-harness/test_proj_one/proj_one.c
+1527527802 source:/home/vld/repos/c-test-harness/c-test-harness/test_proj_one/proj_one.c
 	"proj_one.h"
 
-1527527409 /home/vld/repos/c-test-harness/c-test-harness/test_proj_one/proj_one.h
+1527527802 /home/vld/repos/c-test-harness/c-test-harness/test_proj_one/proj_one.h
 
-1527527409 source:/home/vld/repos/c-test-harness/c-test-harness/test_proj_one/test_proj_one.c
+1527566413 source:/home/vld/repos/c-test-harness/c-test-harness/test_proj_one/test_proj_one.c
 	<stdio.h>
 	<stdbool.h>
 	"proj_one.h"
 	"test_proj_one.h"
 	"../test.h"
 
-1527527446 /home/vld/repos/c-test-harness/c-test-harness/test.h
+1527567219 /home/vld/repos/c-test-harness/c-test-harness/test.h
 
-1527527409 source:/home/vld/repos/c-test-harness/c-test-harness/test_proj_two/proj_two.c
+1527527802 source:/home/vld/repos/c-test-harness/c-test-harness/test_proj_two/proj_two.c
 	"proj_two.h"
 
-1527527409 /home/vld/repos/c-test-harness/c-test-harness/test_proj_two/proj_two.h
+1527527802 /home/vld/repos/c-test-harness/c-test-harness/test_proj_two/proj_two.h
 
-1527527409 source:/home/vld/repos/c-test-harness/c-test-harness/test_proj_two/test_proj_two.c
+1527566402 source:/home/vld/repos/c-test-harness/c-test-harness/test_proj_two/test_proj_two.c
 	<stdio.h>
 	<stdbool.h>
 	"proj_two.h"
