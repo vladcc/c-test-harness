@@ -27,9 +27,8 @@ void run_tests(void)
     if (passed != end)
         putchar('\n');
 
-    printf("%s tests passed: %d\n", __FILE__, passed);
-    printf("%s tests failed: %d\n", __FILE__, end - passed);
-    puts("------------------------------------------------");
+    int failed = end - passed;
+    report(passed, failed);
     return;
 }
 //------------------------------------------------------------------------------
