@@ -31,6 +31,13 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="../../README.txt" />
+		<Unit filename="../boilerplate/test.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="../boilerplate/test.h" />
 		<Unit filename="../test.h" />
 		<Unit filename="../test_all.c">
 			<Option compilerVar="CC" />
