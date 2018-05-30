@@ -43,9 +43,12 @@ void run_test_proj_one(void)
         putchar('\n');
 
     failed = end - passed;
+    report(passed, failed);
+    /*
     printf("%s\ntests passed: %d\n", __FILE__, passed);
     printf("%s\ntests failed: %d\n", __FILE__, failed);
     puts("------------------------------------------------");
+    */
     return;
 }
 //------------------------------------------------------------------------------
