@@ -58,6 +58,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../test_proj_two/test_proj_two.h" />
+		<Unit filename="changelog.txt" />
 		<Extensions>
 			<code_completion />
 			<envvars />

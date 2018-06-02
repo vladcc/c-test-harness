@@ -1,0 +1,4 @@
+2018-06-02
+test.h v1.1:
+Test report separator removed when REPORT_FILE is not defined.
+File name printed once before the report when REPORT_FILE is defined.
