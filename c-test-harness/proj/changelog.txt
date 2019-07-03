@@ -2,3 +2,7 @@
 test.h v1.1:
 Test report separator removed when REPORT_FILE is not defined.
 File name printed once before the report when REPORT_FILE is defined.
+
+2019-07-03
+test.h v1.2:
+stdbool.h now included in test.h

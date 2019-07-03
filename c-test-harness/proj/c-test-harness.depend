@@ -69,3 +69,37 @@
 	"test_proj_two.h"
 	"../test.h"
 
+1562181902 source:/home/vld/Projects/c-test-harness/c-test-harness/test_all.c
+	<stdio.h>
+	"./test_proj_one/test_proj_one.h"
+	"./test_proj_two/test_proj_two.h"
+
+1562181512 /home/vld/Projects/c-test-harness/c-test-harness/test_proj_one/test_proj_one.h
+
+1562181512 /home/vld/Projects/c-test-harness/c-test-harness/test_proj_two/test_proj_two.h
+
+1562181512 source:/home/vld/Projects/c-test-harness/c-test-harness/test_proj_one/proj_one.c
+	"proj_one.h"
+
+1562181512 /home/vld/Projects/c-test-harness/c-test-harness/test_proj_one/proj_one.h
+
+1562181839 source:/home/vld/Projects/c-test-harness/c-test-harness/test_proj_one/test_proj_one.c
+	<stdio.h>
+	"proj_one.h"
+	"test_proj_one.h"
+	"../test.h"
+
+1562181859 /home/vld/Projects/c-test-harness/c-test-harness/test.h
+	<stdbool.h>
+
+1562181512 source:/home/vld/Projects/c-test-harness/c-test-harness/test_proj_two/proj_two.c
+	"proj_two.h"
+
+1562181512 /home/vld/Projects/c-test-harness/c-test-harness/test_proj_two/proj_two.h
+
+1562181845 source:/home/vld/Projects/c-test-harness/c-test-harness/test_proj_two/test_proj_two.c
+	<stdio.h>
+	"proj_two.h"
+	"test_proj_two.h"
+	"../test.h"
+

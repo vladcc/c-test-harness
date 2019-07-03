@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 #include "proj_one.h"
 #include "test_proj_one.h"
 #include "../test.h"
