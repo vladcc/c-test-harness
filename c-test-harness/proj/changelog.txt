@@ -6,3 +6,7 @@ File name printed once before the report when REPORT_FILE is defined.
 2019-07-03
 test.h v1.2:
 stdbool.h now included in test.h
+
+2019-11-10
+test.h v1.3:
+stdio.h now included in test.h
