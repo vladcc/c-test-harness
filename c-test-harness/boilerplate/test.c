@@ -1,13 +1,16 @@
 #include <stdio.h>
 #include "test.h"
 
-static ftest tests[] = {
+static bool success(void) {return true;}
+static bool failure(void) {return false;}
 
+static ftest tests[] = {
+	success, failure
 };
 
 //------------------------------------------------------------------------------
 
-void run_tests(void)
+int run_tests(void)
 {
     int i, end = sizeof(tests)/sizeof(*tests);
 
@@ -21,13 +24,12 @@ void run_tests(void)
 
     int failed = end - passed;
     report(passed, failed);
-    return;
+    return failed;
 }
 //------------------------------------------------------------------------------
 
 int main(void)
 {
-	run_tests();
-	return 0;
+	return run_tests();
 }
 //------------------------------------------------------------------------------

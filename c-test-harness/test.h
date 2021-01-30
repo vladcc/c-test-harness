@@ -1,6 +1,17 @@
+/* test.h -- a test harness
+   v1.3
+
+   Place a bunch of ftest type functions in an array and iterate over it. The
+   ones which return true are the successful tests, the ones which return false
+   are the failed tests. This header usually comes with a boilerplate file.
+
+   Author: Vladimir Dinev
+   vld.dinev@gmail.com
+   2019-11-10
+*/
+
 #ifndef TEST_H
 #define TEST_H
-/* v1.3 */
 
 #include <stdio.h>
 #include <stdbool.h>

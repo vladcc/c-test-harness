@@ -1,0 +1,8 @@
+2021-01-30
+Makefile added
+./proj directory removed
+Boilerplate and test_all.c mains return number of failed tests
+.gitignore amended to ignore *.bin
+
+2021-01-31
+test.h signed retroactively with the date of the previous commit
